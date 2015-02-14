@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc, require: false
 
 gem 'comfortable_mexican_sofa', '~> 1.12.0'
 gem 'figaro'
+gem 'newrelic_rpm'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
