@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc, require: false
 
+gem 'comfortable_mexican_sofa', '~> 1.12.0'
 gem 'figaro'
 
 group :development, :test do
