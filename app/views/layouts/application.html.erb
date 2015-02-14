@@ -6,9 +6,13 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%= request.subdomain %>">
+<body class="<%= current_subdomain %>">
+
+<%= render "#{current_subdomain}/navigation" rescue nil %>
 
 <%= yield %>
+
+<%= render "#{current_subdomain}/footer" rescue nil %>
 
 </body>
 </html>
